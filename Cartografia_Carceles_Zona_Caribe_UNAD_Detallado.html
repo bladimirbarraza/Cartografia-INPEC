@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c37abecad49179581e7c2d04b6574f04 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c37abecad49179581e7c2d04b6574f04" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c37abecad49179581e7c2d04b6574f04 = L.map(
+                "map_c37abecad49179581e7c2d04b6574f04",
+                {
+                    center: [10.4, -74.8],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_11991267feacc5db22abf6fe05b6d59e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var marker_7640c226d35d7e56cbe5d644152bf002 = L.marker(
+                [10.9685, -74.7813],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_b36a19504be75749747ca564a63ee2a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7640c226d35d7e56cbe5d644152bf002.setIcon(icon_b36a19504be75749747ca564a63ee2a8);
+        
+    
+        var popup_177eac44b1f2a95eeef793fec60cfd62 = L.popup({"maxWidth": 300});
+
+        
+            var html_294b6d02481feafe969dd35c639c6f94 = $(`<div id="html_294b6d02481feafe969dd35c639c6f94" style="width: 100.0%; height: 100.0%;"><b>Cárcel Modelo de Barranquilla</b><br>Establecimiento de mediana seguridad. Alta población penitenciaria.</div>`)[0];
+            popup_177eac44b1f2a95eeef793fec60cfd62.setContent(html_294b6d02481feafe969dd35c639c6f94);
+        
+
+        marker_7640c226d35d7e56cbe5d644152bf002.bindPopup(popup_177eac44b1f2a95eeef793fec60cfd62)
+        ;
+
+        
+    
+    
+            var marker_9900c027d6809bf36f52cf9032cac300 = L.marker(
+                [10.6374, -74.9262],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_42c01ce7e221c1046fac9f23d04cf1a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9900c027d6809bf36f52cf9032cac300.setIcon(icon_42c01ce7e221c1046fac9f23d04cf1a9);
+        
+    
+        var popup_cf9e9c21734f5d51907bda305d5e31f0 = L.popup({"maxWidth": 300});
+
+        
+            var html_83230a1e2875c345e2ad22cb2661c090 = $(`<div id="html_83230a1e2875c345e2ad22cb2661c090" style="width: 100.0%; height: 100.0%;"><b>Cárcel Judicial de Sabanalarga</b><br>Centro de reclusión media seguridad en Atlántico.</div>`)[0];
+            popup_cf9e9c21734f5d51907bda305d5e31f0.setContent(html_83230a1e2875c345e2ad22cb2661c090);
+        
+
+        marker_9900c027d6809bf36f52cf9032cac300.bindPopup(popup_cf9e9c21734f5d51907bda305d5e31f0)
+        ;
+
+        
+    
+    
+            var marker_b84ac70254f90fe505f546f396f0740b = L.marker(
+                [10.4, -75.5],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_41d82523039955029cd711202cb49395 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b84ac70254f90fe505f546f396f0740b.setIcon(icon_41d82523039955029cd711202cb49395);
+        
+    
+        var popup_136d2a0b5ea348f070a33fd02dfec4e9 = L.popup({"maxWidth": 300});
+
+        
+            var html_d979abd97b85ebf1f14608fb94270667 = $(`<div id="html_d979abd97b85ebf1f14608fb94270667" style="width: 100.0%; height: 100.0%;"><b>Cárcel de Cartagena</b><br>Ubicada en la capital de Bolívar. Presenta problemas de hacinamiento.</div>`)[0];
+            popup_136d2a0b5ea348f070a33fd02dfec4e9.setContent(html_d979abd97b85ebf1f14608fb94270667);
+        
+
+        marker_b84ac70254f90fe505f546f396f0740b.bindPopup(popup_136d2a0b5ea348f070a33fd02dfec4e9)
+        ;
+
+        
+    
+    
+            var marker_0e5a7c3fe4198e36d30fb4f608931159 = L.marker(
+                [9.242, -74.7547],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_9d7c59ec681f1d7429d56ace6aeab044 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e5a7c3fe4198e36d30fb4f608931159.setIcon(icon_9d7c59ec681f1d7429d56ace6aeab044);
+        
+    
+        var popup_a1a50278203014d0e4b75a1e5c964035 = L.popup({"maxWidth": 300});
+
+        
+            var html_9586e1b411694c3c464aebf3c21facb6 = $(`<div id="html_9586e1b411694c3c464aebf3c21facb6" style="width: 100.0%; height: 100.0%;"><b>Cárcel de Magangué</b><br>Centro de mediana seguridad que alberga internos de la región.</div>`)[0];
+            popup_a1a50278203014d0e4b75a1e5c964035.setContent(html_9586e1b411694c3c464aebf3c21facb6);
+        
+
+        marker_0e5a7c3fe4198e36d30fb4f608931159.bindPopup(popup_a1a50278203014d0e4b75a1e5c964035)
+        ;
+
+        
+    
+    
+            var marker_edd27c7959e174e06369cf50fab43f9d = L.marker(
+                [9.3047, -75.3978],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_2f68267020121f6cb76edb8430c4247b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_edd27c7959e174e06369cf50fab43f9d.setIcon(icon_2f68267020121f6cb76edb8430c4247b);
+        
+    
+        var popup_4ceaeaa8e2b637beb987c134106709b7 = L.popup({"maxWidth": 300});
+
+        
+            var html_8ee6d27690abda61391ebdc1805231e4 = $(`<div id="html_8ee6d27690abda61391ebdc1805231e4" style="width: 100.0%; height: 100.0%;"><b>Cárcel de Sincelejo</b><br>Centro penitenciario en la capital de Sucre. Cuenta con programas educativos.</div>`)[0];
+            popup_4ceaeaa8e2b637beb987c134106709b7.setContent(html_8ee6d27690abda61391ebdc1805231e4);
+        
+
+        marker_edd27c7959e174e06369cf50fab43f9d.bindPopup(popup_4ceaeaa8e2b637beb987c134106709b7)
+        ;
+
+        
+    
+    
+            var marker_2e4c03b8eafba715fd855dc0a74d8710 = L.marker(
+                [9.3206, -75.2906],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_54ec99124bad4d828ecb84e31e44dad6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e4c03b8eafba715fd855dc0a74d8710.setIcon(icon_54ec99124bad4d828ecb84e31e44dad6);
+        
+    
+        var popup_e66f56089948d7ce54e00b7679be8f7a = L.popup({"maxWidth": 300});
+
+        
+            var html_f31f4d968c8317bf1b7e31d0eb65ece6 = $(`<div id="html_f31f4d968c8317bf1b7e31d0eb65ece6" style="width: 100.0%; height: 100.0%;"><b>Cárcel de Corozal</b><br>Establecimiento Regional del INPEC en Sucre.</div>`)[0];
+            popup_e66f56089948d7ce54e00b7679be8f7a.setContent(html_f31f4d968c8317bf1b7e31d0eb65ece6);
+        
+
+        marker_2e4c03b8eafba715fd855dc0a74d8710.bindPopup(popup_e66f56089948d7ce54e00b7679be8f7a)
+        ;
+
+        
+    
+    
+            var marker_e56a3a81934c5470bf62654f03f5aaac = L.marker(
+                [10.484, -73.2436],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_de973a913fdcb3e3e7ad679f31cb9fdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e56a3a81934c5470bf62654f03f5aaac.setIcon(icon_de973a913fdcb3e3e7ad679f31cb9fdd);
+        
+    
+        var popup_15b7f229f707936750375fd2f86171f4 = L.popup({"maxWidth": 300});
+
+        
+            var html_5987574b4bd20a45642a63bdde1c4ad6 = $(`<div id="html_5987574b4bd20a45642a63bdde1c4ad6" style="width: 100.0%; height: 100.0%;"><b>La Tramacúa, Valledupar</b><br>Centro de alta seguridad. Uno de los más grandes del Caribe colombiano.</div>`)[0];
+            popup_15b7f229f707936750375fd2f86171f4.setContent(html_5987574b4bd20a45642a63bdde1c4ad6);
+        
+
+        marker_e56a3a81934c5470bf62654f03f5aaac.bindPopup(popup_15b7f229f707936750375fd2f86171f4)
+        ;
+
+        
+    
+    
+            var marker_4bfd38fc4ba0d400efda445cf17a46fc = L.marker(
+                [8.747, -75.8814],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_667e8b77425afe762a5f336c98eb8956 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4bfd38fc4ba0d400efda445cf17a46fc.setIcon(icon_667e8b77425afe762a5f336c98eb8956);
+        
+    
+        var popup_f6c4a28cc6a0c996582369944f4f11bb = L.popup({"maxWidth": 300});
+
+        
+            var html_2a0d0c498ba00cead6468854ae2226e1 = $(`<div id="html_2a0d0c498ba00cead6468854ae2226e1" style="width: 100.0%; height: 100.0%;"><b>Cárcel de Montería</b><br>Centro de reclusión de alta densidad en el departamento de Córdoba.</div>`)[0];
+            popup_f6c4a28cc6a0c996582369944f4f11bb.setContent(html_2a0d0c498ba00cead6468854ae2226e1);
+        
+
+        marker_4bfd38fc4ba0d400efda445cf17a46fc.bindPopup(popup_f6c4a28cc6a0c996582369944f4f11bb)
+        ;
+
+        
+    
+    
+            var marker_14c4bc9f754ae501408b9ae1a1504c13 = L.marker(
+                [7.8897, -76.0558],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_d141a1e85cee29fd8912aaf143473c7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_14c4bc9f754ae501408b9ae1a1504c13.setIcon(icon_d141a1e85cee29fd8912aaf143473c7b);
+        
+    
+        var popup_f425f073ef7b0458bf59b1aa13bbb339 = L.popup({"maxWidth": 300});
+
+        
+            var html_07e4aa5fee680a4ec0679b1366090fae = $(`<div id="html_07e4aa5fee680a4ec0679b1366090fae" style="width: 100.0%; height: 100.0%;"><b>Cárcel de Tierralta</b><br>Establecimiento ubicado en una zona rural de Córdoba.</div>`)[0];
+            popup_f425f073ef7b0458bf59b1aa13bbb339.setContent(html_07e4aa5fee680a4ec0679b1366090fae);
+        
+
+        marker_14c4bc9f754ae501408b9ae1a1504c13.bindPopup(popup_f425f073ef7b0458bf59b1aa13bbb339)
+        ;
+
+        
+    
+    
+            var marker_76063ad71911fbf4efcba310caaf8fe2 = L.marker(
+                [11.5444, -72.9072],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_10823d0af491351fee84ab92618e1f8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_76063ad71911fbf4efcba310caaf8fe2.setIcon(icon_10823d0af491351fee84ab92618e1f8b);
+        
+    
+        var popup_b84d232e5766856b71c5660803c12dc4 = L.popup({"maxWidth": 300});
+
+        
+            var html_aabe4b15423b5887320817eaf2cb0baf = $(`<div id="html_aabe4b15423b5887320817eaf2cb0baf" style="width: 100.0%; height: 100.0%;"><b>Cárcel de Riohacha</b><br>Alta tasa de hacinamiento. Situada en la capital de La Guajira.</div>`)[0];
+            popup_b84d232e5766856b71c5660803c12dc4.setContent(html_aabe4b15423b5887320817eaf2cb0baf);
+        
+
+        marker_76063ad71911fbf4efcba310caaf8fe2.bindPopup(popup_b84d232e5766856b71c5660803c12dc4)
+        ;
+
+        
+    
+    
+            var marker_186e620da90250d3291e0fbeb3cba4a2 = L.marker(
+                [11.2408, -74.199],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_749c84744e7882e6acfe834bf7ead761 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_186e620da90250d3291e0fbeb3cba4a2.setIcon(icon_749c84744e7882e6acfe834bf7ead761);
+        
+    
+        var popup_577aba29b051e19ed78cc1f3e4c4abe8 = L.popup({"maxWidth": 300});
+
+        
+            var html_c0d3ad4e7ccfb426170b250a090d06b5 = $(`<div id="html_c0d3ad4e7ccfb426170b250a090d06b5" style="width: 100.0%; height: 100.0%;"><b>Cárcel de Santa Marta</b><br>Centro penitenciario con sobrepoblación. Magdalena.</div>`)[0];
+            popup_577aba29b051e19ed78cc1f3e4c4abe8.setContent(html_c0d3ad4e7ccfb426170b250a090d06b5);
+        
+
+        marker_186e620da90250d3291e0fbeb3cba4a2.bindPopup(popup_577aba29b051e19ed78cc1f3e4c4abe8)
+        ;
+
+        
+    
+    
+            var marker_42ee3a1631300b90bb1c73707ca5756d = L.marker(
+                [9.0028, -73.9742],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_aafe893b657ae35d45a6167f6b1f03b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_42ee3a1631300b90bb1c73707ca5756d.setIcon(icon_aafe893b657ae35d45a6167f6b1f03b0);
+        
+    
+        var popup_04f2c5aa0397ee066a7610a60086bdf3 = L.popup({"maxWidth": 300});
+
+        
+            var html_5e9e51d5286711582624b20741aeb1e1 = $(`<div id="html_5e9e51d5286711582624b20741aeb1e1" style="width: 100.0%; height: 100.0%;"><b>Cárcel de El Banco</b><br>Establecimiento pequeño en el sur del Magdalena.</div>`)[0];
+            popup_04f2c5aa0397ee066a7610a60086bdf3.setContent(html_5e9e51d5286711582624b20741aeb1e1);
+        
+
+        marker_42ee3a1631300b90bb1c73707ca5756d.bindPopup(popup_04f2c5aa0397ee066a7610a60086bdf3)
+        ;
+
+        
+    
+    
+            var marker_7f706a6bc6bf0adf70be19aeaf95e04c = L.marker(
+                [12.5847, -81.7006],
+                {}
+            ).addTo(map_c37abecad49179581e7c2d04b6574f04);
+        
+    
+            var icon_ff0d73c189259a3ebd0b83ba06b2db68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f706a6bc6bf0adf70be19aeaf95e04c.setIcon(icon_ff0d73c189259a3ebd0b83ba06b2db68);
+        
+    
+        var popup_7d8c08ff25e83caba69d0cceb6a5e60d = L.popup({"maxWidth": 300});
+
+        
+            var html_1b35ed86e2042b36740328fcef3230f8 = $(`<div id="html_1b35ed86e2042b36740328fcef3230f8" style="width: 100.0%; height: 100.0%;"><b>Cárcel de San Andrés</b><br>Único centro penitenciario en el archipiélago de San Andrés.</div>`)[0];
+            popup_7d8c08ff25e83caba69d0cceb6a5e60d.setContent(html_1b35ed86e2042b36740328fcef3230f8);
+        
+
+        marker_7f706a6bc6bf0adf70be19aeaf95e04c.bindPopup(popup_7d8c08ff25e83caba69d0cceb6a5e60d)
+        ;
+
+        
+    
+</script>
+</html>
